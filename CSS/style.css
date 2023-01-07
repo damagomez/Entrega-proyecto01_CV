@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(17, 104, 104);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #ff0015;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.profile {
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.spacing {
+    padding: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 5px;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+    margin: 5px;
+}
+
+.nav_link {
+    margin: 20px;
+}
+
+
+/*
+aside {
+    padding: 20px;
+    text-align: center;
+    background: #ff0015;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+*/
