@@ -1,8 +1,13 @@
-body {
-    background-color: rgb(17, 104, 104);
-    color: white;
+*{
+    box-sizing:border-box;
 }
 
+body {
+    background-color: #FFF
+    color: #000;
+}
+
+/* Saltear a contenido principal */
 .skip {
     position: absolute;
     left: -10000px;
@@ -10,19 +15,84 @@ body {
     width: 1px;
     height: 1px;
     overflow: hidden;
-  }
+}
 
-  .skip:focus {
+.skip:focus {
     position: static;
     width: auto;
     height: auto;
-  }
+}
+
+/* Text Sizes */
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+.medium-text {
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+/*Todo header*/
+
+#dropdown-nav-btn,
+#close-btn {
+    display: none;
+}
+
+#dropdown-nav-btn,
+#close-btn {
+    position: absolute;
+    top: 3px;
+    left: 90%;
+    width: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+#dropdown-nav-btn {
+    display: block;
+    color: darkgreen;
+    border: none;
+    font-size: 1.625em;
+}
+#dropdown-nav-btn:hover {
+    cursor: pointer;
+    background-color: rgb(233, 218, 154);
+    color: teal;
+}
+#close-btn {
+    background-color: rgb(233, 218, 154);
+    color: darkred;
+    font-size: 2em;
+}
+#close-btn:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+
 
 header {
     padding: 20px;
     text-align: center;
-    background: #447c50;
-    color: white;
+    background: #54B689;
+    color: #FFF;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 300px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -30,8 +100,8 @@ header {
     top: 0; /* Stay at the top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
 }
+
 
 .profile {
     height: auto;
@@ -40,7 +110,8 @@ header {
 }
 
 .spacing {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .social-media {
@@ -49,10 +120,10 @@ header {
 }
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
 }
@@ -83,32 +154,30 @@ header {
     text-align: left;
 }
 
-.nav_text {
-    
-    color: white;
-}
-
 ul {
     list-style-type: none;
-  }
+}
 
-  .mail-button {
+.mail-button {
     background-color: white;
     color: black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     margin: 20px;
-  }
+}
+
+/*Todo Main*/
 
 #main {
     margin-left: 350px;
     margin-top: 40px;
     margin-right: 50px;
     margin-bottom: 40px;
+    max-width: 100%;
 }
 
 .contenedor-a {
-    background-color: grey;
+    background-color: #e9e9e9;
     padding: 40px;
 }
 
@@ -121,11 +190,57 @@ ul {
     margin: 40px;
 }
 
+.spacing-edu {
+    margin: 40px;
+}
+
+.edu-formal {
+    background-color: #fff;
+    border: solid 10px #54B689;
+    color: #000;
+    margin: 20px;
+}
+
+.cursos {
+    background-color: #e9e9e9;
+    color: #000;
+    padding: 40px;
+}
+
+.exp-laboral {
+    margin: 0px 40px;
+}
+
+.conocimientos-class {
+    padding: 40px;
+    background-color: #e9e9e9;
+}
+
+.contacto {
+    margin: 40px;
+}
+
+input[type=text], select {
+    width: 100%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Todo Footer */
 footer {
     margin-left: 350px;
     margin-right: 50px;
-}
-
-.center-text {
-    text-align: right;
 }
