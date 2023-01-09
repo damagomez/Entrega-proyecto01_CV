@@ -1,11 +1,28 @@
 body {
     background-color: rgb(17, 104, 104);
+    color: white;
 }
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
 
 header {
     padding: 20px;
     text-align: center;
-    background: #ff0015;
+    background: #447c50;
+    color: white;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 300px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -26,13 +43,18 @@ header {
     padding: 20px;
 }
 
+.social-media {
+    display: inline-block;
+    width: 100%;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
-    text-align: center;
-    text-decoration: none;
+    height: 30px;
     border-radius: 50%;
+    text-align: center;
 }
 
 .fa:hover {
@@ -40,34 +62,70 @@ header {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background: #353535;
     color: white;
     margin: 5px;
 }
 
 .fa-linkedin {
-    background: #3B5998;
+    background: #353535;
     color: white;
     margin: 5px;
 }
 
-.nav_link {
-    margin: 20px;
+.fa-twitter {
+    background: #353535;
+    color: white;
+    margin: 5px;
 }
 
+.side_nav{
+    text-align: left;
+}
 
-/*
-aside {
-    padding: 20px;
-    text-align: center;
-    background: #ff0015;
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+.nav_text {
+    
+    color: white;
+}
+
+ul {
+    list-style-type: none;
   }
-*/
+
+  .mail-button {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+  }
+
+#main {
+    margin-left: 350px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.contenedor-a {
+    background-color: grey;
+    padding: 40px;
+}
+
+.img-perfil {
+    height: auto;
+    width: 80%;
+}
+
+.educacion {
+    margin: 40px;
+}
+
+footer {
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+.center-text {
+    text-align: right;
+}
