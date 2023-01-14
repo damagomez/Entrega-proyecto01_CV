@@ -242,6 +242,35 @@ ul {
     margin: 0px 40px;
 }
 
+/*animacion de imagenes Conocimientos*/
+.tile {
+    height:200px;
+    -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+    transform: translateY(50px) rotate(-5deg) translateZ(0);
+    -webkit-transition-delay: .9s;
+    -o-transition-delay: .9s;
+    transition-delay: .9s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+}
+.bottom-right.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
+}
+section {
+    padding:20px;
+}
+
+/* Fin de animacion de imagenes Conocimiento */
+
 .contacto {
     margin: 40px;
 }
@@ -273,3 +302,4 @@ footer {
     margin-left: 350px;
     margin-right: 50px;
 }
+
