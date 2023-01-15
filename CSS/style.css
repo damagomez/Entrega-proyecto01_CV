@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #FFF
     color: #000;
+    background-color: #C6CCB2;
 }
 
 /* Saltear a contenido principal */
@@ -68,21 +68,19 @@ a {
 }
 #dropdown-nav-btn {
     display: none;
-    color: darkgreen;
+    color: #060E0A;
     border: none;
     font-size: 1.625em;
 }
 #dropdown-nav-btn:hover {
     cursor: pointer;
-    color: teal;
 }
 #close-btn {
-    color: darkgreen;
+    color: #060E0A;
     font-size: 2em;
 }
 #close-btn:hover {
     cursor: pointer;
-    color: darkgreen;
 }
 
 
@@ -90,15 +88,15 @@ a {
 header {
     padding: 20px;
     text-align: center;
-    background: #54B689;
+    background: #37815E;
     color: #FFF;
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 300px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden;
 }
 
 
@@ -154,10 +152,10 @@ ul {
 
 .telefono-button,
 .mail-button {
-    background-color: white;
+    background-color: #e9e9e9;
     color: black;
     border-radius: 5px;
-    border: #04AA6D solid 3px;
+    border: #060E0A solid 3px;
     padding: 5px;
     margin: 5px;
     display: inline-block;
@@ -182,19 +180,19 @@ ul {
 .cursos,
 .conocimientos-class,
 .contenedor-a {
-    background-color: #e9e9e9;
+    background-color: #FFFFFF;
     padding: 40px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 /* Boton Cursos */
 .collapsible {
-    background-color: #FFFFFF;
+    background-color: #e9e9e9;
     color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: solid 5px #54B789;
+    border: solid 5px #2B6449;
     border-radius: 5px;
     text-align: left;
     outline: none;
@@ -203,7 +201,7 @@ ul {
 }
 
 .active, .collapsible:hover {
-    background-color: #54B789;
+    background-color: #2B6449;
     color: #fff;
 }
 
@@ -212,17 +210,19 @@ ul {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #e9e9e9;
     border-radius: 0px 0px 5px 5px;
-    border: solid 5px #54B789;
-    border-top: #FFFFFF;
+    border: solid 5px #2B6449;
+    border-top: none;
     margin: 0px 10px;
+    color: #000000;
 }
 
 .img-perfil {
     height: auto;
     width: 100%;
     border-radius: 5%;
+    border: #2B6449 solid 5px;
 }
 
 .educacion {
@@ -234,8 +234,8 @@ ul {
 }
 
 .edu-formal {
-    background-color: #fff;
-    border: solid 10px #54B689;
+    background-color: #e9e9e9;
+    border: solid 10px #2B6449;
     color: #000;
     margin: 5px;
     border-radius: 5%;
@@ -283,16 +283,18 @@ input[type=text], select {
 
 /* Estilo de boton enviar */
 input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #e9e9e9;
+    color: #000;
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    border: #2B6449 solid 3px;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2B6449;
+    color: #FFFFFF;
 }
 
 /* Todo Footer */
