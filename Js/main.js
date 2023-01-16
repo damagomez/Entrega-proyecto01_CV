@@ -42,6 +42,17 @@ coll[i].addEventListener("click", function() {
     }
 });
 }
+//aria-expanded//
+function myFunction() {
+    var x = document.getElementById("p2").getAttribute("aria-expanded"); 
+    if (x == "true") 
+    {
+    x = "false"
+    } else {
+    x = "true"
+    }
+    document.getElementById("p2").setAttribute("aria-expanded", x);
+    }
 
 //Image Animations//
 let elementsArray = document.querySelectorAll(".tile");
