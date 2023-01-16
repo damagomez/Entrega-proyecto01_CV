@@ -27,6 +27,9 @@ window.onresize = function() {
     }
 }
 
+//menu aria expanded//
+
+
 //Items colapsables y expandibles//
 var coll = document.getElementsByClassName("collapsible");
 var i;
