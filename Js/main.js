@@ -27,18 +27,6 @@ window.onresize = function() {
     }
 }
 
-//aria-hidden on header//
-function myFunction() {
-    var x = document.getElementById("nav-content").getAttribute("aria-hidden"); 
-    if (x == "true") 
-    {
-    x = "false"
-    } else {
-    x = "true"
-    }
-    document.getElementById("p2").setAttribute("aria-expanded", x);
-    }
-
 //Items colapsables y expandibles//
 var coll = document.getElementsByClassName("collapsible");
 var i;
